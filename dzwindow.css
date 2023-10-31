@@ -1,0 +1,35 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.window{
+    width: 600px;
+    height: 350px;
+    background-image: url(SKACHAT.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.window p{
+    text-align: center;
+    margin: 5%;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+}
+.window button{
+    position: relative;
+    bottom: 10px;
+    left: 60px;
+    color: white;
+    background-color: #303030;
+    height: 70px;
+    width: 210px;
+    font-size: 24px;
+}

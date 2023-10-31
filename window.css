@@ -1,0 +1,70 @@
+.window{
+    width: 700px;
+    height: 400px;
+    background-color: #787878;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.modal-window{
+    width: 650px;
+    height: 350px;
+    background-color: #ededed;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.modal-window p{
+    height: 70px;
+    align-items: center;
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.modal-window h1{
+    height: 30px;
+    display: flex;
+    align-items: space-between;
+}
+
+.button-red{
+    width: 160px;
+    height: 28px;
+    background-color: #ff2b2b;
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+
+.button-green{
+    width: 160px;
+    height: 28px;
+    background-color: #16e11c;
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.button-window{
+    width: 325px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 5%;
+}

@@ -1,0 +1,22 @@
+/* .div{
+    background: blue;
+    width: 50px;
+}
+.zalupa{
+    color: #9400d3;
+} */
+.box, .box1, .box2, .box3 {
+    background: #9400d3;
+    width: 110px;
+    height: 120px;
+    border: 2px solid black;
+}
+.box1{
+    position: absolute;
+    background-color: black;
+    top: 20px;
+    left: 20px;
+}
+.box h1{
+    color: aquamarine;
+}
